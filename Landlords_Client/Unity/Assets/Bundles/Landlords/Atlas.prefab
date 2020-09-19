@@ -96,6 +96,9 @@ MonoBehaviour:
     gameObject: {fileID: 21300048, guid: d8396ba905ec610429f1c55258169be8, type: 3}
   - key: DiamondTwo
     gameObject: {fileID: 21300050, guid: d8396ba905ec610429f1c55258169be8, type: 3}
+  - key: Farmer
+    gameObject: {fileID: -7793824027542516926, guid: d8396ba905ec610429f1c55258169be8,
+      type: 3}
   - key: HeartEight
     gameObject: {fileID: 21300052, guid: d8396ba905ec610429f1c55258169be8, type: 3}
   - key: HeartFive
@@ -122,10 +125,20 @@ MonoBehaviour:
     gameObject: {fileID: 21300072, guid: d8396ba905ec610429f1c55258169be8, type: 3}
   - key: HeartTwo
     gameObject: {fileID: 21300074, guid: d8396ba905ec610429f1c55258169be8, type: 3}
+  - key: Identity_Farmer
+    gameObject: {fileID: 21300076, guid: d8396ba905ec610429f1c55258169be8, type: 3}
+  - key: Identity_Landlord
+    gameObject: {fileID: 21300078, guid: d8396ba905ec610429f1c55258169be8, type: 3}
+  - key: Landlord
+    gameObject: {fileID: -4341219572375066867, guid: d8396ba905ec610429f1c55258169be8,
+      type: 3}
   - key: LJoker
     gameObject: {fileID: 21300080, guid: d8396ba905ec610429f1c55258169be8, type: 3}
   - key: None
     gameObject: {fileID: 21300118, guid: d8396ba905ec610429f1c55258169be8, type: 3}
+  - key: NoUsePoker
+    gameObject: {fileID: 806061676355752967, guid: d8396ba905ec610429f1c55258169be8,
+      type: 3}
   - key: SJoker
     gameObject: {fileID: 21300082, guid: d8396ba905ec610429f1c55258169be8, type: 3}
   - key: SpadeEight
@@ -154,3 +167,6 @@ MonoBehaviour:
     gameObject: {fileID: 21300106, guid: d8396ba905ec610429f1c55258169be8, type: 3}
   - key: SpadeTwo
     gameObject: {fileID: 21300108, guid: d8396ba905ec610429f1c55258169be8, type: 3}
+  - key: Timer
+    gameObject: {fileID: 2921055884457087923, guid: d8396ba905ec610429f1c55258169be8,
+      type: 3}

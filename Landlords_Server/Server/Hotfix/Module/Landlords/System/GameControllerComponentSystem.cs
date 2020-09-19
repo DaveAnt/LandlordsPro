@@ -54,11 +54,7 @@ namespace ETHotfix
                 //重置玩家身份
                 handCards.AccessIdentity = Identity.None;
                 //重置玩家手牌数
-                gamersCardNum.Add(new GamerCardNum()
-                {
-                    UserID = g.UserID,
-                    Num = g.GetComponent<HandCardsComponent>().GetAll().Length
-                });
+ 
             });
 
             //发送玩家手牌和玩家手牌数

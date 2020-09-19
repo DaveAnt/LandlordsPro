@@ -14,7 +14,7 @@ namespace ETHotfix
                 if (!GateHelper.SignSession(session))
                 {
                     response.Error = ErrorCode.ERR_SignError;
-                    //Log.Debug("登陆错误");
+                    Log.Debug("登陆错误");
                     reply();
                     return;
                 }

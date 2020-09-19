@@ -67,7 +67,7 @@ namespace ETHotfix
                 ClientSession.Send(new G2C_TestHotfixMessage() { Info = "recv hotfix message success" });
 
                 //向客户端发送玩家下线消息
-                Log.Info("它处登录，原登录踢下线《====");
+                Log.Info("它处登录，原登录踢下线《===="); 
                 //...练习，自己实现通知客户端下线
 
                 //通知Gate服务器移除指定User将它处登录用户踢下线

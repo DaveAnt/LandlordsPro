@@ -282,6 +282,7 @@ message Actor_GamerReady_Landlords // IActorMessage
 	int64 ActorId = 93;
 	int64 UserID = 1;
 }
+
 message GamerScore
 {
     int64 UserID = 1;
@@ -308,4 +309,12 @@ message Actor_GamerContinue_Ntt // IActorMessage
 {
 	int32 RpcId = 90;
 	int64 ActorId = 93;
+}
+
+//提前准备的玩家
+message Actor_GamersReady_Landlords // IActorMessage
+{
+	int32 RpcId = 90;
+	int64 ActorId = 93;
+	repeated int64 IsReadyUsers = 1;
 }

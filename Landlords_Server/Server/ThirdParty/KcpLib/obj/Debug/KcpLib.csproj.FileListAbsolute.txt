@@ -29,3 +29,5 @@ E:\Desktop\Project_Data\UnityPro\Github_Item\LandlordsPro\Landlords_Server\Serve
 E:\Desktop\Project_Data\UnityPro\Github_Item\LandlordsPro\Landlords_Server\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.csproj.CoreCompileInputs.cache
 E:\Desktop\Project_Data\UnityPro\Github_Item\LandlordsPro\Landlords_Server\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.dll
 E:\Desktop\Project_Data\UnityPro\Github_Item\LandlordsPro\Landlords_Server\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.pdb
+C:\Users\Administrator\Desktop\LandlordsPro\Landlords_Server\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.csprojAssemblyReference.cache
+E:\Desktop\Project_Data\UnityPro\Github_Item\LandlordsPro\Landlords_Server\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.csprojAssemblyReference.cache

@@ -48,3 +48,4 @@ E:\Desktop\Project_Data\UnityPro\Github_Item\LandlordsPro\Landlords_Server\Serve
 E:\Desktop\Project_Data\UnityPro\Github_Item\LandlordsPro\Landlords_Server\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp2.2\MongoDB.Bson.dll
 E:\Desktop\Project_Data\UnityPro\Github_Item\LandlordsPro\Landlords_Server\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp2.2\MongoDB.Bson.xml
 E:\Desktop\Project_Data\UnityPro\Github_Item\LandlordsPro\Landlords_Server\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp2.2\MongoDB.Bson.pdb
+E:\Desktop\Project_Data\UnityPro\Github_Item\LandlordsPro\Landlords_Server\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp2.2\MongoDB.Bson.csprojAssemblyReference.cache

@@ -129,6 +129,16 @@ namespace ETHotfix
             //actorProxy.Send(new Actor_MatchSucess_M2G() { GamerID = gamer.InstanceId });
             Session GetGateSession = MapHelper.GetGateSession();
             GetGateSession.Send(new T_MatchSucess_M2G() { UserID = gamer.UserID, GamerID = gamer.InstanceId });
+
+            List<long> isReadyGamers = room.GetReadyGamers();
+            if (isReadyGamers.Count > 0)
+            {
+                Game.Scene.GetComponent<ActorMessageSenderComponent>().
+                    Get(gamer.CActorID).Send(new Actor_GamersReady_Landlords()
+                    {
+                        IsReadyUsers = To.RepeatedField(isReadyGamers)
+                    });
+            }
         }
 
 

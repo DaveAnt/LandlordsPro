@@ -1,4 +1,8 @@
 ﻿using ETModel;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
 
 namespace ETHotfix
 {
@@ -180,6 +184,17 @@ namespace ETHotfix
                 gamer.Dispose();
                 self.Dispose();
             }
+        }
+
+        public static List<long> GetReadyGamers(this Room self)
+        {
+            List<long> isReadyGamers = new List<long>();
+            foreach (var seat in self.seats)
+            {
+                if (self.isReadys[seat.Value])
+                    isReadyGamers.Add(seat.Key);
+            }
+            return isReadyGamers;
         }
     }
 }

@@ -43,7 +43,7 @@ namespace ETHotfix
 
                 reply();
 
-                //await ETTask.CompletedTask;
+                await ETTask.CompletedTask;
             }
             catch (Exception e)
             {

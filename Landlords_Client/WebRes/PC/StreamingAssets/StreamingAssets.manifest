@@ -1,34 +1,34 @@
 ManifestFileVersion: 0
-CRC: 1700046529
+CRC: 1039356615
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: config.unity3d
+      Name: atlas.unity3d
       Dependencies: {}
     Info_1:
       Name: landlobby.unity3d
       Dependencies: {}
     Info_2:
-      Name: landlogin.unity3d
+      Name: config.unity3d
       Dependencies: {}
     Info_3:
-      Name: setuserinfo.unity3d
+      Name: landend.unity3d
       Dependencies: {}
     Info_4:
-      Name: landroom.unity3d
-      Dependencies: {}
-    Info_5:
-      Name: atlas.unity3d
-      Dependencies: {}
-    Info_6:
-      Name: handcard.unity3d
-      Dependencies: {}
-    Info_7:
       Name: playcard.unity3d
       Dependencies: {}
-    Info_8:
+    Info_5:
+      Name: landlogin.unity3d
+      Dependencies: {}
+    Info_6:
       Name: landinteraction.unity3d
       Dependencies: {}
+    Info_7:
+      Name: setuserinfo.unity3d
+      Dependencies: {}
+    Info_8:
+      Name: handcard.unity3d
+      Dependencies: {}
     Info_9:
-      Name: landend.unity3d
+      Name: landroom.unity3d
       Dependencies: {}

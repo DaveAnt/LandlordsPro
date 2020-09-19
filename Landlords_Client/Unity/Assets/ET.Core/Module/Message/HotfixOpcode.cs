@@ -147,6 +147,10 @@ namespace ETModel
 	[Message(HotfixOpcode.Actor_GamerContinue_Ntt)]
 	public partial class Actor_GamerContinue_Ntt : IActorMessage {}
 
+//提前准备的玩家
+	[Message(HotfixOpcode.Actor_GamersReady_Landlords)]
+	public partial class Actor_GamersReady_Landlords : IActorMessage {}
+
 }
 namespace ETModel
 {
@@ -193,5 +197,6 @@ namespace ETModel
 		 public const ushort Actor_Gameover_Ntt = 10039;
 		 public const ushort Actor_GamerMoneyLess_Ntt = 10040;
 		 public const ushort Actor_GamerContinue_Ntt = 10041;
+		 public const ushort Actor_GamersReady_Landlords = 10042;
 	}
 }

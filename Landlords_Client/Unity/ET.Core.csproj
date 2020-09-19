@@ -122,12 +122,14 @@
     <Compile Include="Assets\ET.Core\Base\RecyclableMemoryStream\RecyclableMemoryStreamManager.cs" />
     <Compile Include="Assets\ET.Core\Base\Helper\EnumHelper.cs" />
     <Compile Include="Assets\ET.Core\Base\Helper\TimeHelper.cs" />
+    <Compile Include="Assets\ET.Core\Landlords\Card.cs" />
     <Compile Include="Assets\ET.Core\Base\Object\HideInHierarchy.cs" />
     <Compile Include="Assets\ET.Core\Base\Helper\MD5Helper.cs" />
     <Compile Include="Assets\ET.Core\Module\Actor\IActorMessage.cs" />
     <Compile Include="Assets\ET.Core\Module\Message\IMessagePacker.cs" />
     <Compile Include="Assets\ET.Core\Base\Helper\StringHelper.cs" />
     <Compile Include="Assets\ET.Core\Base\UnityEngine\Vector4.cs" />
+    <Compile Include="Assets\ET.Core\Landlords\Type.cs" />
     <Compile Include="Assets\ET.Core\Core.cs" />
     <Compile Include="Assets\ET.Core\Base\RecyclableMemoryStream\RecyclableMemoryStream.cs" />
     <Compile Include="Assets\ET.Core\Module\Message\OuterOpcode.cs" />
@@ -136,13 +138,13 @@
     <Compile Include="Assets\ET.Core\Entity\Hotfix.cs" />
     <Compile Include="Assets\ET.Core\Module\GameComponent\UnitGateComponent.cs" />
     <Compile Include="Assets\ET.Core\Module\ActorLocation\LocationProxyComponent.cs" />
+    <Compile Include="Assets\ET.Core\Module\Message\MessageAttribute.cs" />
     <Compile Include="Assets\ET.Core\Base\UnityEngine\Vector2.cs" />
     <Compile Include="Assets\ET.Core\Base\Object\IDeserializeSystem.cs" />
     <Compile Include="Assets\ET.Core\Base\Object\ComponentWithId.cs" />
     <Compile Include="Assets\ET.Core\Component\KVComponent.cs" />
     <Compile Include="Assets\ET.Core\Base\Object\ObjectPool.cs" />
     <Compile Include="Assets\ET.Core\Base\Object\Entity.cs" />
-    <Compile Include="Assets\ET.Core\Module\Message\MessageAttribute.cs" />
     <Compile Include="Assets\ET.Core\Module\Actor\ActorMessageSenderComponent.cs" />
     <Compile Include="Assets\ET.Core\Base\Object\EventSystem.cs" />
     <Compile Include="Assets\ET.Core\Module\GameComponent\RealmGateAddressComponent.cs" />
@@ -248,8 +250,6 @@
     <Compile Include="Assets\ET.Core\Module\Actor\MailBoxComponent.cs" />
     <Compile Include="Assets\ET.Core\Module\ActorLocation\IActorLocationMessage.cs" />
     <Compile Include="Assets\ET.Core\Module\ActorLocation\AMActorLocationHandler.cs" />
-    <Compile Include="Assets\ET.Core\Landlords\Type.cs" />
-    <Compile Include="Assets\ET.Core\Landlords\Card.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\ET.Core\ET.Core.asmdef" />
@@ -480,6 +480,18 @@
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
       <HintPath>Assets\Plugins\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>Library\PackageCache\com.unity.analytics@3.3.5\Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>Library\PackageCache\com.unity.analytics@3.3.5\Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>Library\PackageCache\com.unity.analytics@3.3.5\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>Library\PackageCache\com.unity.purchasing@2.0.6\Editor\UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>F:\2020.2.0a19\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>

@@ -1,6 +1,8 @@
 ﻿using System;
 using ETModel;
 using System.Threading.Tasks;
+using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace ETHotfix
 {
@@ -14,11 +16,10 @@ namespace ETHotfix
         {
             //Log.Debug("Map服务器收到第一条消息");
             LandMatchComponent matchComponent = Game.Scene.GetComponent<LandMatchComponent>();
-
+            Room room;
             //玩家是否已经开始游戏
             if (matchComponent.Waiting.ContainsKey(message.UserID))
             {
-                Room room;
                 matchComponent.Waiting.TryGetValue(message.UserID, out room);
                 Gamer gamer = room.GetGamerFromUserID(message.UserID);
 
@@ -44,7 +45,6 @@ namespace ETHotfix
                 //添加玩家到匹配队列 广播一遍正在匹配中的玩家
                 matchComponent.AddGamerToMatchingQueue(newgamer);
             }
-
         }
     }
 }

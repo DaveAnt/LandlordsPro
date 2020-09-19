@@ -304,10 +304,10 @@ TextureImporter:
     second: HeartTwo
   - first:
       213: 1003413176068227579
-    second: _Player_Head0
+    second: Identity_Farmer
   - first:
       213: -5022529369983138104
-    second: _Player_Head1
+    second: Identity_Landlord
   - first:
       213: 1541974308397509859
     second: LJoker
@@ -358,16 +358,16 @@ TextureImporter:
     second: SpadeTwo
   - first:
       213: 806061676355752967
-    second: _NoUsePoker
+    second: NoUsePoker
   - first:
       213: 2921055884457087923
-    second: _Timer
+    second: Timer
   - first:
       213: -4341219572375066867
-    second: _Icon0
+    second: Landlord
   - first:
       213: -7793824027542516926
-    second: _Icon1
+    second: Farmer
   - first:
       213: 6764328655083996199
     second: ClubEight
@@ -487,10 +487,10 @@ TextureImporter:
     second: HeartTwo
   - first:
       213: -6187643136657917809
-    second: _Player_Head0
+    second: Identity_Farmer
   - first:
       213: 7684416622079852528
-    second: _Player_Head1
+    second: Identity_Landlord
   - first:
       213: 6942818933741648355
     second: LJoker
@@ -541,19 +541,202 @@ TextureImporter:
     second: SpadeTwo
   - first:
       213: -7354755500852407666
-    second: _NoUsePoker
+    second: NoUsePoker
   - first:
       213: 2256583583306882166
-    second: _Timer
+    second: Timer
   - first:
       213: -5539168456413771479
-    second: _Icon0
+    second: Landlord
   - first:
       213: 4234258545575507754
-    second: _Icon1
+    second: Farmer
   - first:
       213: -5654971284896128172
     second: Poker_61
+  - first:
+      213: 9005408483194421157
+    second: Poker_0
+  - first:
+      213: 7715595222918746848
+    second: Poker_1
+  - first:
+      213: -3711237754384391927
+    second: Poker_2
+  - first:
+      213: -2814973100646335962
+    second: Poker_3
+  - first:
+      213: 3520792434832084469
+    second: Poker_4
+  - first:
+      213: -816828017655289203
+    second: Poker_5
+  - first:
+      213: 3559153660130680834
+    second: Poker_6
+  - first:
+      213: 8975306172275494110
+    second: Poker_7
+  - first:
+      213: 8058854132150608678
+    second: Poker_8
+  - first:
+      213: 1530051490809586285
+    second: Poker_9
+  - first:
+      213: 8412788322783628806
+    second: Poker_10
+  - first:
+      213: -3258167008122300951
+    second: Poker_11
+  - first:
+      213: 1356389084673387551
+    second: Poker_12
+  - first:
+      213: 3761643494693205066
+    second: Poker_13
+  - first:
+      213: -4247432946996288150
+    second: Poker_14
+  - first:
+      213: 8726100565221498888
+    second: Poker_15
+  - first:
+      213: -8286551029517168912
+    second: Poker_16
+  - first:
+      213: -2987266500330127630
+    second: Poker_17
+  - first:
+      213: 2616006310478124243
+    second: Poker_18
+  - first:
+      213: 4209105030587596291
+    second: Poker_19
+  - first:
+      213: -1373968026226797524
+    second: Poker_20
+  - first:
+      213: -8637746942120362290
+    second: Poker_21
+  - first:
+      213: -7016918006578626858
+    second: Poker_22
+  - first:
+      213: 988868392796404653
+    second: Poker_23
+  - first:
+      213: 3921498588533760513
+    second: Poker_24
+  - first:
+      213: -4396408808733521863
+    second: Poker_25
+  - first:
+      213: 2755476601528472
+    second: Poker_26
+  - first:
+      213: -6603582855582231118
+    second: Poker_27
+  - first:
+      213: 5217099856879233581
+    second: Poker_28
+  - first:
+      213: 4626349558825461716
+    second: Poker_29
+  - first:
+      213: 495258153240568049
+    second: Poker_30
+  - first:
+      213: -91735455529525633
+    second: Poker_31
+  - first:
+      213: -1968783149519800931
+    second: Poker_32
+  - first:
+      213: -8275366571439633746
+    second: Poker_33
+  - first:
+      213: -6080389362214794914
+    second: Poker_34
+  - first:
+      213: -2295999595412763039
+    second: Poker_35
+  - first:
+      213: -1479237946727285184
+    second: Poker_36
+  - first:
+      213: -3993457000962445816
+    second: Poker_37
+  - first:
+      213: 3409034954782360006
+    second: Poker_38
+  - first:
+      213: -6187643136657917809
+    second: Poker_39
+  - first:
+      213: 7684416622079852528
+    second: Poker_40
+  - first:
+      213: 1541974308397509859
+    second: Poker_41
+  - first:
+      213: -3013053348993670029
+    second: Poker_42
+  - first:
+      213: 4292455968023105654
+    second: Poker_43
+  - first:
+      213: 4214371026760209865
+    second: Poker_44
+  - first:
+      213: 2332414854158336259
+    second: Poker_45
+  - first:
+      213: 703869139221844008
+    second: Poker_46
+  - first:
+      213: -2963938265610680516
+    second: Poker_47
+  - first:
+      213: 1990066864363096772
+    second: Poker_48
+  - first:
+      213: -912491670124070314
+    second: Poker_49
+  - first:
+      213: 8868352696392283545
+    second: Poker_50
+  - first:
+      213: -2230545986741001406
+    second: Poker_51
+  - first:
+      213: 5700772302735512093
+    second: Poker_52
+  - first:
+      213: 4941613935272103981
+    second: Poker_53
+  - first:
+      213: -5559910467468738717
+    second: Poker_54
+  - first:
+      213: -6946627261846007499
+    second: Poker_55
+  - first:
+      213: 6555381526055274774
+    second: Poker_56
+  - first:
+      213: -7354755500852407666
+    second: Poker_57
+  - first:
+      213: 2256583583306882166
+    second: Poker_58
+  - first:
+      213: -5539168456413771479
+    second: Poker_59
+  - first:
+      213: 4234258545575507754
+    second: Poker_60
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -1067,7 +1250,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 658
-        y: 817
+        y: 812
         width: 80
         height: 104
       alignment: 0
@@ -1088,7 +1271,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 740
-        y: 807
+        y: 812
         width: 80
         height: 104
       alignment: 0
@@ -1256,7 +1439,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 412
-        y: 701
+        y: 706
         width: 80
         height: 104
       alignment: 0
@@ -1462,7 +1645,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _Player_Head0
+      name: Identity_Farmer
       rect:
         serializedVersion: 2
         x: 249
@@ -1483,7 +1666,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _Player_Head1
+      name: Identity_Landlord
       rect:
         serializedVersion: 2
         x: 334
@@ -1551,7 +1734,7 @@ TextureImporter:
         serializedVersion: 2
         x: 597
         y: 616
-        width: 66
+        width: 64
         height: 88
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1840,7 +2023,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _NoUsePoker
+      name: NoUsePoker
       rect:
         serializedVersion: 2
         x: 740
@@ -1861,7 +2044,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _Timer
+      name: Timer
       rect:
         serializedVersion: 2
         x: 864
@@ -1882,7 +2065,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _Icon0
+      name: Landlord
       rect:
         serializedVersion: 2
         x: 2
@@ -1903,7 +2086,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _Icon1
+      name: Farmer
       rect:
         serializedVersion: 2
         x: 120

@@ -129,10 +129,10 @@
     <Compile Include="Assets\ThirdParty\Google.Protobuf\ProtoPreconditions.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\ObjectModel\BsonJavaScript.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\IO\BsonDocumentWriter.cs" />
-    <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Serializers\DateTimeSerializer.cs" />
-    <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\ObjectModel\BsonBinarySubType.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Serializers\BsonInt32Serializer.cs" />
+    <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Serializers\DateTimeSerializer.cs" />
     <Compile Include="Assets\ThirdParty\Google.Protobuf\InvalidProtocolBufferException.cs" />
+    <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\ObjectModel\BsonBinarySubType.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\IO\JsonWriterContext.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Serializers\AbstractClassSerializer.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\IO\IBsonChunkSource.cs" />
@@ -147,8 +147,8 @@
     <Compile Include="Assets\ThirdParty\FairyGUI\Scripts\Core\Text\SelectionShape.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Attributes\BsonSerializerAttribute.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Options\RepresentationConverter.cs" />
-    <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\IBsonDictionarySerializer.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\BsonSerializer.cs" />
+    <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\IBsonDictionarySerializer.cs" />
     <Compile Include="Assets\ThirdParty\FairyGUI\Scripts\Core\MovieClip.cs" />
     <Compile Include="Assets\ThirdParty\Google.Protobuf\PropertyInfoExtensions.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Conventions\DelegateMemberMapConvention.cs" />
@@ -188,17 +188,17 @@
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\IO\BsonWriterState.cs" />
     <Compile Include="Assets\ThirdParty\FairyGUI\Scripts\UI\GImage.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Serializers\ProjectingDeserializer.cs" />
+    <Compile Include="Assets\ThirdParty\FairyGUI\Scripts\Core\NTexture.cs" />
     <Compile Include="Assets\ThirdParty\FairyGUI\Scripts\Core\Image.cs" />
     <Compile Include="Assets\ThirdParty\FairyGUI\Scripts\Event\EventListener.cs" />
-    <Compile Include="Assets\ThirdParty\FairyGUI\Scripts\Core\NTexture.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Serializers\VersionSerializer.cs" />
     <Compile Include="Assets\ThirdParty\FairyGUI\Scripts\Core\Text\Emoji.cs" />
     <Compile Include="Assets\ThirdParty\FairyGUI\Scripts\Core\UpdateContext.cs" />
     <Compile Include="Assets\ThirdParty\ILRuntime\LitJson\JsonMockWrapper.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\IBsonDocumentSerializer.cs" />
     <Compile Include="Assets\ThirdParty\FairyGUI\Scripts\Core\DisplayObject.cs" />
-    <Compile Include="Assets\ThirdParty\FairyGUI\Scripts\UI\GGraph.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Serializers\BsonJavaScriptSerializer.cs" />
+    <Compile Include="Assets\ThirdParty\FairyGUI\Scripts\UI\GGraph.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Serializers\RawBsonArraySerializer.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Conventions\EnumRepresentationConvention.cs" />
     <Compile Include="Assets\ThirdParty\FairyGUI\Scripts\UI\GList.cs" />
@@ -229,12 +229,12 @@
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Serializers\TupleSerializers.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Attributes\BsonRequiredAttribute.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\IO\JsonWriterSettings.cs" />
+    <Compile Include="Assets\ThirdParty\FairyGUI\Scripts\Core\BlendMode.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Attributes\BsonIgnoreAttribute.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Conventions\IgnoreIfNullConvention.cs" />
     <Compile Include="Assets\ThirdParty\Google.Protobuf\StreamExtensions.cs" />
     <Compile Include="Assets\ThirdParty\FairyGUI\Scripts\Core\Container.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Serializers\ArraySerializer.cs" />
-    <Compile Include="Assets\ThirdParty\FairyGUI\Scripts\Core\BlendMode.cs" />
     <Compile Include="Assets\ThirdParty\FairyGUI\Scripts\Utils\XML.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\ObjectModel\BsonElement.cs" />
     <Compile Include="Assets\ThirdParty\FairyGUI\Scripts\UI\GObjectPool.cs" />
@@ -295,8 +295,8 @@
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Shared\Hasher.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\IO\BsonWriter.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Serializers\PartiallyRawBsonDocumentSerializer.cs" />
-    <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\ObjectModel\LazyBsonDocument.cs" />
     <Compile Include="Assets\ThirdParty\FairyGUI\Scripts\Core\HitTest\IHitTest.cs" />
+    <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\ObjectModel\LazyBsonDocument.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Serializers\ByteArraySerializer.cs" />
     <Compile Include="Assets\ThirdParty\ILRuntime\LitJson\Lexer.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Conventions\IConventionPack.cs" />
@@ -406,14 +406,14 @@
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\IBsonSerializationProvider.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Serializers\BitArraySerializer.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\IO\BsonDocumentReaderBookmark.cs" />
+    <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\IO\IBsonReaderExtensions.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\IBsonSerializer.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Serializers\GuidSerializer.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Serializers\BsonJavaScriptWithScopeSerializer.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Serializers\BsonDocumentSerializer.cs" />
-    <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\IO\IBsonReaderExtensions.cs" />
     <Compile Include="Assets\ThirdParty\FairyGUI\Scripts\UI\Gears\GearBase.cs" />
-    <Compile Include="Assets\ThirdParty\FairyGUI\Scripts\Core\Shape.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\ObjectModel\BsonNull.cs" />
+    <Compile Include="Assets\ThirdParty\FairyGUI\Scripts\Core\Shape.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Conventions\MemberDefaultValueConvention.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Attributes\BsonIgnoreExtraElementsAttribute.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\IBsonSerializerExtensions.cs" />
@@ -433,9 +433,9 @@
     <Compile Include="Assets\ThirdParty\Google.Protobuf\WireFormat.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\DiscriminatedInterfaceSerializationProvider.cs" />
     <Compile Include="Assets\ThirdParty\FairyGUI\Scripts\Filter\ColorFilter.cs" />
-    <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Conventions\ScalarDiscriminatorConvention.cs" />
     <Compile Include="Assets\ThirdParty\FairyGUI\Scripts\UI\Gears\GearText.cs" />
     <Compile Include="Assets\ThirdParty\FairyGUI\Scripts\Core\Text\FontManager.cs" />
+    <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Conventions\ScalarDiscriminatorConvention.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Serializers\BsonInt64Serializer.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\IO\IBsonWriter.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Serializers\StackSerializer.cs" />
@@ -517,8 +517,8 @@
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\IBsonPolymorphicSerializer.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Serializers\LazyBsonArraySerializer.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Attributes\BsonRepresentationAttribute.cs" />
-    <Compile Include="Assets\ThirdParty\Google.Protobuf\ICustomDiagnosticMessage.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\ObjectModel\BsonBinaryData.cs" />
+    <Compile Include="Assets\ThirdParty\Google.Protobuf\ICustomDiagnosticMessage.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Serializers\UriSerializer.cs" />
     <Compile Include="Assets\ThirdParty\FairyGUI\Scripts\Core\Text\TextField.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\BsonDeserializationArgs.cs" />
@@ -538,8 +538,8 @@
     <Compile Include="Assets\ThirdParty\ILRuntime\LitJson\JsonReader.cs" />
     <Compile Include="Assets\ThirdParty\FairyGUI\Scripts\Gesture\LongPressGesture.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Serializers\BsonStringSerializer.cs" />
-    <Compile Include="Assets\ThirdParty\FairyGUI\Scripts\Core\DisplayOptions.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\ObjectModel\BsonDateTime.cs" />
+    <Compile Include="Assets\ThirdParty\FairyGUI\Scripts\Core\DisplayOptions.cs" />
     <Compile Include="Assets\ThirdParty\Google.Protobuf\ByteString.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\IO\BsonTrie.cs" />
     <Compile Include="Assets\ThirdParty\MongoDB\MongoDB.Bson\Serialization\Attributes\BsonIgnoreIfNullAttribute.cs" />
@@ -781,6 +781,18 @@
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
       <HintPath>Assets\Plugins\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>Library\PackageCache\com.unity.analytics@3.3.5\Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>Library\PackageCache\com.unity.analytics@3.3.5\Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>Library\PackageCache\com.unity.analytics@3.3.5\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>Library\PackageCache\com.unity.purchasing@2.0.6\Editor\UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>F:\2020.2.0a19\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>

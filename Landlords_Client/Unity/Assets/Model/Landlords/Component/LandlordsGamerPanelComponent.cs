@@ -135,6 +135,7 @@ namespace ETModel
                 return;
 
             string spriteName = $"Identity_{Enum.GetName(typeof(Identity), identity)}";
+            Debug.Log("设置玩家身份:" + spriteName);
             Sprite headSprite = CardHelper.GetCardSprite(spriteName);
             headPhoto.sprite = headSprite;
             headPhoto.gameObject.SetActive(true);
