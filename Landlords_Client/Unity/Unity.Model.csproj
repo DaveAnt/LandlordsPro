@@ -92,6 +92,7 @@
     <Compile Include="Assets\Model\Landlords\LandUI\LandSetUserInfo\LandSetUserInfoComponent.cs" />
     <Compile Include="Assets\Model\TestSet\RandTargetTimeBehavior.cs" />
     <Compile Include="Assets\Model\Module\UI\IUIFactory.cs" />
+    <Compile Include="Assets\Model\Landlords\Handler\Actor_GamersReady_NttHandler.cs" />
     <Compile Include="Assets\Model\TestSet\TestRoom.cs" />
     <Compile Include="Assets\Model\Landlords\Component\GamerComponent.cs" />
     <Compile Include="Assets\Model\Landlords\LandUI\LandGameEnd\LandEndComponent.cs" />
@@ -134,7 +135,6 @@
     <Compile Include="Assets\Model\Module\FairyGUI\GWindow.cs" />
     <Compile Include="Assets\Model\Landlords\LandUI\UIEventType.cs" />
     <Compile Include="Assets\Model\Landlords\LandUI\LandGameEnd\LandEndFactory.cs" />
-    <Compile Include="Assets\Model\Landlords\Handler\Actor_GamersReady_NttHandler.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Model\Unity.Model.asmdef" />

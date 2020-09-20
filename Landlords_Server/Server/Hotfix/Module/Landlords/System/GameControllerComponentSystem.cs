@@ -54,7 +54,11 @@ namespace ETHotfix
                 //重置玩家身份
                 handCards.AccessIdentity = Identity.None;
                 //重置玩家手牌数
- 
+                gamersCardNum.Add(new GamerCardNum()
+                {
+                    UserID = g.UserID,
+                    Num = g.GetComponent<HandCardsComponent>().GetAll().Length
+                });
             });
 
             //发送玩家手牌和玩家手牌数
@@ -227,7 +231,7 @@ namespace ETHotfix
             OrderControllerComponent orderController = room.GetComponent<OrderControllerComponent>();
 
             //测试游戏结束
-            lastGamer.GetComponent<HandCardsComponent>().library.Clear();
+            //lastGamer.GetComponent<HandCardsComponent>().library.Clear();
             //是否结束,当前出牌者手牌数为0时游戏结束
             bool isEnd = lastGamer.GetComponent<HandCardsComponent>().CardsCount == 0;
             if (isEnd)
